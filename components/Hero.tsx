@@ -71,18 +71,14 @@ export default function Hero() {
 
           {/* Right: Visual block */}
           <div className="relative">
-            {/* Placeholder card */}
+            {/* Hero image */}
             <div className="relative aspect-[4/5] bg-[#111111] border border-white/[0.07] overflow-hidden">
-              {/* Placeholder content */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center select-none">
-                  <div className="w-14 h-14 border border-white/[0.08] mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-[#2A2A2A] text-xl">▶</span>
-                  </div>
-                  <p className="text-[0.55rem] tracking-[0.25em] uppercase text-[#2A2A2A]">Training Footage</p>
-                  <p className="text-[0.5rem] text-[#1E1E1E] mt-1 tracking-widest uppercase">Place your image or video here</p>
-                </div>
-              </div>
+              {/* Replace christian-hero.jpg with your frame carry photo */}
+              <img
+                src="/images/christian-hero.jpg"
+                alt="Christian Davis — California's Strongest Man"
+                className="absolute inset-0 w-full h-full object-cover object-top"
+              />
 
               {/* Bottom gradient */}
               <div

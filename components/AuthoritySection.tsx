@@ -6,7 +6,6 @@ const credentials = [
 ]
 
 const mediaBlocks = [
-  { label: 'Competition Footage', span: 'col-span-2', aspect: 'aspect-[16/9]' },
   { label: 'Coaching Review', span: 'col-span-1', aspect: 'aspect-[4/3]' },
   { label: 'Training System', span: 'col-span-1', aspect: 'aspect-[4/3]' },
 ]
@@ -60,8 +59,19 @@ export default function AuthoritySection() {
             </div>
           </div>
 
-          {/* Right: Media placeholders */}
+          {/* Right: Media */}
           <div className="grid grid-cols-2 gap-3">
+            {/* Main competition photo */}
+            <div className="col-span-2 aspect-[2/3] bg-[#111111] border border-white/[0.07] overflow-hidden relative">
+              {/* Replace christian-stone.jpg with your atlas stone photo */}
+              <img
+                src="/images/christian-stone.jpg"
+                alt="Christian Davis — Atlas Stone Competition"
+                className="absolute inset-0 w-full h-full object-cover object-center"
+              />
+            </div>
+
+            {/* Remaining placeholders */}
             {mediaBlocks.map(({ label, span, aspect }) => (
               <div
                 key={label}
