@@ -1,6 +1,6 @@
 const readouts = [
   { label: 'Coach', value: 'Christian Davis' },
-  { label: 'Title', value: "2026 2026 California's Strongest Man" },
+  { label: 'Title', value: "2026 California's Strongest Man" },
   { label: 'Method', value: 'Foundations of Strength' },
   { label: 'Delivery', value: 'Online / Nationwide' },
 ]
