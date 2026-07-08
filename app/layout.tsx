@@ -19,7 +19,7 @@ const barlowCondensed = Barlow_Condensed({
 export const metadata: Metadata = {
   title: 'Foundations of Strength — Online Coaching by Christian Davis',
   description:
-    "Personalized online strength coaching for men who want to build real strength, muscle, and long-term physical capability. Coached by Christian Davis, California's Strongest Man.",
+    "Personalized online strength coaching for men who want to build real strength, muscle, and long-term physical capability. Coached by Christian Davis, 2026 California's Strongest Man.",
   openGraph: {
     title: 'Foundations of Strength',
     description: 'Online strength coaching by Christian Davis — California\'s Strongest Man.',

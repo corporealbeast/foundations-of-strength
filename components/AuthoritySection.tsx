@@ -1,5 +1,5 @@
 const credentials = [
-  "California's Strongest Man",
+  "2026 California's Strongest Man",
   'Professional Strongman Competitor',
   'Online Strength Coach',
   'Coaching Nationwide',
@@ -31,7 +31,7 @@ export default function AuthoritySection() {
 
             <div className="space-y-6 max-w-lg">
               <p className="text-[#6B6B6B] text-base leading-relaxed font-light">
-                Christian Davis is California's Strongest Man and a professional strongman competitor. His coaching is built from years spent understanding what actually creates real strength — and what breaks people down unnecessarily.
+                Christian Davis is 2026 California's Strongest Man and a professional strongman competitor. His coaching is built from years spent understanding what actually creates real strength — and what breaks people down unnecessarily.
               </p>
               <p className="text-[#6B6B6B] text-base leading-relaxed font-light">
                 The same principles that build elite-level strength can be scaled intelligently for real people who want to feel capable, powerful, and confident in their body again.

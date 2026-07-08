@@ -16,7 +16,7 @@ export default function Footer() {
             </p>
             <p className="text-xs text-[#404040] leading-relaxed font-light">
               Online Strength Coaching by Christian Davis<br />
-              California's Strongest Man&nbsp;&nbsp;·&nbsp;&nbsp;Professional Strongman
+              2026 California's Strongest Man&nbsp;&nbsp;·&nbsp;&nbsp;Professional Strongman
             </p>
           </div>
 

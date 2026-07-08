@@ -1,6 +1,6 @@
 const readouts = [
   { label: 'Coach', value: 'Christian Davis' },
-  { label: 'Title', value: "Cal's Strongest Man" },
+  { label: 'Title', value: "2026 2026 California's Strongest Man" },
   { label: 'Method', value: 'Foundations of Strength' },
   { label: 'Delivery', value: 'Online / Nationwide' },
 ]
@@ -47,7 +47,7 @@ export default function Hero() {
               <p className="text-[0.6rem] tracking-[0.2em] uppercase text-[#404040] mb-1.5">Coached By</p>
               <p className="text-[#EDE8DF] font-semibold">Christian Davis</p>
               <p className="text-sm text-[#6B6B6B] font-light mt-0.5">
-                California's Strongest Man&nbsp;&nbsp;·&nbsp;&nbsp;Professional Strongman
+                2026 California's Strongest Man&nbsp;&nbsp;·&nbsp;&nbsp;Professional Strongman
               </p>
             </div>
 
@@ -76,7 +76,7 @@ export default function Hero() {
               {/* Replace christian-hero.jpg with your frame carry photo */}
               <img
                 src="/images/christian-hero.jpg"
-                alt="Christian Davis — California's Strongest Man"
+                alt="Christian Davis — 2026 California's Strongest Man"
                 className="absolute inset-0 w-full h-full object-cover object-top"
               />
 
