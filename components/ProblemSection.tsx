@@ -25,7 +25,7 @@ export default function ProblemSection() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         {/* Section label */}
         <div className="flex items-center gap-4 mb-12">
-          <span className="text-[0.6rem] tracking-[0.25em] uppercase text-[#B0E0E6] font-medium">
+          <span className="text-[0.6rem] tracking-[0.25em] uppercase text-[#1755E7] font-medium">
             The Problem
           </span>
           <span className="flex-1 h-px bg-white/[0.07]" aria-hidden />
@@ -33,15 +33,15 @@ export default function ProblemSection() {
 
         {/* Headline */}
         <div className="max-w-4xl mb-14">
-          <h2 className="font-condensed text-3xl sm:text-4xl lg:text-5xl xl:text-[3.5rem] font-bold uppercase leading-[1.05] text-[#EDE8DF] tracking-tight">
+          <h2 className="font-condensed text-3xl sm:text-4xl lg:text-5xl xl:text-[3.5rem] font-bold uppercase leading-[1.05] text-[#FFFFFF] tracking-tight">
             Most people do not need<br />another workout.<br />
-            <span className="text-[#6B6B6B]">They need a system.</span>
+            <span className="text-[#A8A8C0]">They need a system.</span>
           </h2>
         </div>
 
         {/* Body copy */}
         <div className="max-w-2xl mb-20">
-          <p className="text-[#6B6B6B] leading-relaxed text-base lg:text-lg font-light">
+          <p className="text-[#A8A8C0] leading-relaxed text-base lg:text-lg font-light">
             Random programs, poor technique, inconsistent progression, and chasing fatigue instead of building capacity are why most people stay stuck. The goal is not to survive workouts. The goal is to become stronger, more capable, and harder to break over time.
           </p>
         </div>
@@ -51,18 +51,18 @@ export default function ProblemSection() {
           {problems.map(({ number, title, description }) => (
             <div
               key={number}
-              className="bg-[#0B0B0B] p-8 lg:p-10 hover:bg-[#111111] transition-colors duration-300"
+              className="bg-[#000000] p-8 lg:p-10 hover:bg-[#070712] transition-colors duration-300"
             >
               <div className="flex items-center justify-between mb-8">
-                <span className="text-[0.55rem] tracking-[0.25em] uppercase text-[#B0E0E6] font-medium">
+                <span className="text-[0.55rem] tracking-[0.25em] uppercase text-[#1755E7] font-medium">
                   {number}
                 </span>
                 <span className="flex-1 mx-4 h-px bg-white/[0.06]" aria-hidden />
               </div>
-              <h3 className="font-condensed text-xl lg:text-2xl font-bold uppercase tracking-wide text-[#EDE8DF] mb-4">
+              <h3 className="font-condensed text-xl lg:text-2xl font-bold uppercase tracking-wide text-[#FFFFFF] mb-4">
                 {title}
               </h3>
-              <p className="text-sm text-[#6B6B6B] leading-relaxed font-light">
+              <p className="text-sm text-[#A8A8C0] leading-relaxed font-light">
                 {description}
               </p>
             </div>

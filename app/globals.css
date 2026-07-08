@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --bg: #0B0B0B;
-  --bg-card: #111111;
-  --bg-section: #0D0D0D;
+  --bg: #000000;
+  --bg-card: #070712;
+  --bg-section: #04040C;
   --border: rgba(255, 255, 255, 0.07);
-  --text-primary: #EDE8DF;
-  --text-secondary: #6B6B6B;
-  --text-tertiary: #404040;
-  --text-dim: #2A2A2A;
-  --blue: #B0E0E6;
-  --blue-light: #C8EAED;
+  --text-primary: #FFFFFF;
+  --text-secondary: #A8A8C0;
+  --text-tertiary: #5C5C78;
+  --text-dim: #2D2D40;
+  --blue: #1755E7;
+  --blue-light: #4070F4;
 }
 
 * {
@@ -34,8 +34,8 @@ body {
 }
 
 ::selection {
-  background-color: rgba(184, 147, 106, 0.25);
-  color: #EDE8DF;
+  background-color: rgba(23, 85, 231, 0.3);
+  color: #FFFFFF;
 }
 
 /* Smooth hover transitions across all interactive elements */

@@ -91,51 +91,51 @@ export default function PerformanceDashboard() {
   return (
     <section
       ref={sectionRef}
-      className="border-t border-white/[0.07] py-28 lg:py-36 bg-[#0D0D0D]"
+      className="border-t border-white/[0.07] py-28 lg:py-36 bg-[#04040C]"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
         {/* Label row */}
         <div className="flex items-center gap-4 mb-12">
-          <span className="text-[0.6rem] tracking-[0.25em] uppercase text-[#B0E0E6] font-medium">
+          <span className="text-[0.6rem] tracking-[0.25em] uppercase text-[#1755E7] font-medium">
             Measured Progress
           </span>
           <span className="flex-1 h-px bg-white/[0.07]" aria-hidden />
-          <span className="text-[0.55rem] tracking-widest uppercase text-[#404040] hidden sm:block">
+          <span className="text-[0.55rem] tracking-widest uppercase text-[#5C5C78] hidden sm:block">
             12-Week View
           </span>
         </div>
 
         {/* Headline */}
-        <h2 className="font-condensed text-3xl sm:text-4xl lg:text-5xl font-bold uppercase leading-[1.05] text-[#EDE8DF] tracking-tight mb-4 max-w-2xl">
+        <h2 className="font-condensed text-3xl sm:text-4xl lg:text-5xl font-bold uppercase leading-[1.05] text-[#FFFFFF] tracking-tight mb-4 max-w-2xl">
           Coaching turns effort<br />into a feedback loop.
         </h2>
-        <p className="text-[#6B6B6B] text-base mb-16 max-w-md font-light leading-relaxed">
+        <p className="text-[#A8A8C0] text-base mb-16 max-w-md font-light leading-relaxed">
           Random training gives you random data. Structured coaching gives you a repeatable
           cycle: train, review, adjust, and progress.
         </p>
 
         {/* Dashboard card */}
-        <div className="border border-white/[0.07] bg-[#0B0B0B] mb-3">
+        <div className="border border-white/[0.07] bg-[#000000] mb-3">
 
           {/* Card header bar */}
           <div className="flex items-center justify-between flex-wrap gap-3 px-5 py-3 border-b border-white/[0.05]">
             <div className="flex items-center gap-2.5">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#B0E0E6] opacity-60" />
-              <span className="text-[0.52rem] tracking-[0.2em] uppercase text-[#B0E0E6] font-medium">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#1755E7] opacity-60" />
+              <span className="text-[0.52rem] tracking-[0.2em] uppercase text-[#1755E7] font-medium">
                 Illustrative Example — Results Vary
               </span>
             </div>
             <div className="flex items-center gap-5">
               <div className="flex items-center gap-2">
-                <div className="w-5 h-px bg-[#B0E0E6]" />
-                <span className="text-[0.48rem] tracking-[0.14em] uppercase text-[#6B6B6B]">
+                <div className="w-5 h-px bg-[#1755E7]" />
+                <span className="text-[0.48rem] tracking-[0.14em] uppercase text-[#A8A8C0]">
                   Structured Coaching
                 </span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-5 h-0 border-t border-dashed border-[#3A3A3A]" />
-                <span className="text-[0.48rem] tracking-[0.14em] uppercase text-[#404040]">
+                <div className="w-5 h-0 border-t border-dashed border-[#2A2A40]" />
+                <span className="text-[0.48rem] tracking-[0.14em] uppercase text-[#5C5C78]">
                   Random Training
                 </span>
               </div>
@@ -163,8 +163,8 @@ export default function PerformanceDashboard() {
                 </clipPath>
                 {/* Coached area gradient */}
                 <linearGradient id="fos-area-grad" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%"   stopColor="#B0E0E6" stopOpacity="0.1" />
-                  <stop offset="100%" stopColor="#B0E0E6" stopOpacity="0" />
+                  <stop offset="0%"   stopColor="#1755E7" stopOpacity="0.1" />
+                  <stop offset="100%" stopColor="#1755E7" stopOpacity="0" />
                 </linearGradient>
               </defs>
 
@@ -177,7 +177,7 @@ export default function PerformanceDashboard() {
                   />
                   <text
                     x={PAD.l - 8} y={toY(v) + 4}
-                    fontSize="9" fill="#3A3A3A" textAnchor="end"
+                    fontSize="9" fill="#3A3A55" textAnchor="end"
                     fontFamily="'SF Mono','Consolas','Courier New',monospace"
                   >{v}</text>
                 </g>
@@ -186,7 +186,7 @@ export default function PerformanceDashboard() {
               {/* Y-axis rotated label */}
               <text
                 x={13} y={PAD.t + CH / 2}
-                fontSize="8" fill="#2E2E2E" textAnchor="middle"
+                fontSize="8" fill="#30304A" textAnchor="middle"
                 fontFamily="'SF Mono','Consolas','Courier New',monospace"
                 letterSpacing="0.08em"
                 transform={`rotate(-90,13,${PAD.t + CH / 2})`}
@@ -204,7 +204,7 @@ export default function PerformanceDashboard() {
                   key={i}
                   x={toX(i)} y={VH - 14}
                   fontSize="9" textAnchor="middle"
-                  fill={hi === i ? '#6B6B6B' : '#3A3A3A'}
+                  fill={hi === i ? '#A8A8C0' : '#2A2A40'}
                   fontFamily="'SF Mono','Consolas','Courier New',monospace"
                   style={{ transition: 'fill 0.12s' }}
                 >W{i + 1}</text>
@@ -214,7 +214,7 @@ export default function PerformanceDashboard() {
               {hi !== null && (
                 <line
                   x1={toX(hi)} y1={PAD.t - 4} x2={toX(hi)} y2={BASE_Y}
-                  stroke="rgba(176,224,230,0.15)" strokeWidth="1" strokeDasharray="3 3"
+                  stroke="rgba(23,85,231,0.25)" strokeWidth="1" strokeDasharray="3 3"
                 />
               )}
 
@@ -228,14 +228,14 @@ export default function PerformanceDashboard() {
               {/* Random training line — dashed, very muted */}
               <path
                 d={smoothPath(randomPts)}
-                fill="none" stroke="#3A3A3A" strokeWidth="1.5" strokeDasharray="5 4"
+                fill="none" stroke="#2A2A40" strokeWidth="1.5" strokeDasharray="5 4"
                 clipPath="url(#fos-reveal-clip)"
               />
 
               {/* Coached line — primary */}
               <path
                 d={smoothPath(coachedPts)}
-                fill="none" stroke="#B0E0E6" strokeWidth="2"
+                fill="none" stroke="#1755E7" strokeWidth="2"
                 clipPath="url(#fos-reveal-clip)"
               />
 
@@ -244,11 +244,11 @@ export default function PerformanceDashboard() {
                 <>
                   <circle
                     cx={toX(hi)} cy={toY(COACHED[hi])}
-                    r="4.5" fill="#0B0B0B" stroke="#B0E0E6" strokeWidth="2"
+                    r="4.5" fill="#000000" stroke="#1755E7" strokeWidth="2"
                   />
                   <circle
                     cx={toX(hi)} cy={toY(RANDOM[hi])}
-                    r="3" fill="#0B0B0B" stroke="#3A3A3A" strokeWidth="1.5"
+                    r="3" fill="#000000" stroke="#2A2A40" strokeWidth="1.5"
                   />
                 </>
               )}
@@ -257,7 +257,7 @@ export default function PerformanceDashboard() {
             {/* Hover tooltip */}
             {hi !== null && (
               <div
-                className="absolute top-4 bg-[#0D0D0D] border border-white/[0.1] p-3 min-w-[148px] pointer-events-none z-10"
+                className="absolute top-4 bg-[#04040C] border border-white/[0.1] p-3 min-w-[148px] pointer-events-none z-10"
                 style={{
                   left: `${(toX(hi) / VW) * 100}%`,
                   transform: hi > 7
@@ -265,19 +265,19 @@ export default function PerformanceDashboard() {
                     : 'translateX(12px)',
                 }}
               >
-                <p className="text-[0.48rem] tracking-[0.2em] uppercase text-[#404040] mb-2.5 pb-2 border-b border-white/[0.06]">
+                <p className="text-[0.48rem] tracking-[0.2em] uppercase text-[#5C5C78] mb-2.5 pb-2 border-b border-white/[0.06]">
                   Week {hi + 1}
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-center justify-between gap-4">
                     <div className="flex items-center gap-1.5">
-                      <div className="w-3 h-px bg-[#B0E0E6]" />
-                      <span className="text-[0.48rem] tracking-wider uppercase text-[#6B6B6B]">
+                      <div className="w-3 h-px bg-[#1755E7]" />
+                      <span className="text-[0.48rem] tracking-wider uppercase text-[#A8A8C0]">
                         Coached
                       </span>
                     </div>
                     <span
-                      className="text-sm font-bold text-[#B0E0E6]"
+                      className="text-sm font-bold text-[#1755E7]"
                       style={{ fontFamily: "'SF Mono','Consolas',monospace" }}
                     >
                       {COACHED[hi]}
@@ -285,24 +285,24 @@ export default function PerformanceDashboard() {
                   </div>
                   <div className="flex items-center justify-between gap-4">
                     <div className="flex items-center gap-1.5">
-                      <div className="w-3 h-0 border-t border-dashed border-[#3A3A3A]" />
-                      <span className="text-[0.48rem] tracking-wider uppercase text-[#404040]">
+                      <div className="w-3 h-0 border-t border-dashed border-[#2A2A40]" />
+                      <span className="text-[0.48rem] tracking-wider uppercase text-[#5C5C78]">
                         Random
                       </span>
                     </div>
                     <span
-                      className="text-xs text-[#404040]"
+                      className="text-xs text-[#5C5C78]"
                       style={{ fontFamily: "'SF Mono','Consolas',monospace" }}
                     >
                       {RANDOM[hi]}
                     </span>
                   </div>
                   <div className="flex items-center justify-between pt-2 border-t border-white/[0.06]">
-                    <span className="text-[0.48rem] tracking-[0.15em] uppercase text-[#404040]">
+                    <span className="text-[0.48rem] tracking-[0.15em] uppercase text-[#5C5C78]">
                       Gap
                     </span>
                     <span
-                      className="text-xs font-bold text-[#B0E0E6]/40"
+                      className="text-xs font-bold text-[#1755E7]/40"
                       style={{ fontFamily: "'SF Mono','Consolas',monospace" }}
                     >
                       +{COACHED[hi] - RANDOM[hi]}
@@ -315,17 +315,17 @@ export default function PerformanceDashboard() {
 
           {/* Card footer */}
           <div className="flex items-center justify-between px-5 py-2.5 border-t border-white/[0.05]">
-            <span className="text-[0.46rem] tracking-[0.12em] uppercase text-[#2A2A2A]">
+            <span className="text-[0.46rem] tracking-[0.12em] uppercase text-[#2D2D40]">
               Illustrative trend only — not a performance guarantee
             </span>
-            <span className="text-[0.46rem] tracking-[0.12em] uppercase text-[#2A2A2A]">
+            <span className="text-[0.46rem] tracking-[0.12em] uppercase text-[#2D2D40]">
               12-Week Block
             </span>
           </div>
         </div>
 
         {/* Full disclaimer */}
-        <p className="text-[#3A3A3A] text-[0.58rem] leading-relaxed mb-16 max-w-2xl">
+        <p className="text-[#2A2A40] text-[0.58rem] leading-relaxed mb-16 max-w-2xl">
           This is not a guarantee. Progress depends on training age, consistency, recovery,
           nutrition, equipment, injury history, and starting point.
         </p>
@@ -335,15 +335,15 @@ export default function PerformanceDashboard() {
           {READOUTS.map(({ label, indicator, body }) => (
             <div
               key={label}
-              className="bg-[#0B0B0B] p-8 hover:bg-[#111111] transition-colors duration-300"
+              className="bg-[#000000] p-8 hover:bg-[#070712] transition-colors duration-300"
             >
-              <p className="text-[0.48rem] tracking-[0.2em] uppercase text-[#404040] mb-3">
+              <p className="text-[0.48rem] tracking-[0.2em] uppercase text-[#5C5C78] mb-3">
                 {indicator}
               </p>
-              <p className="text-[0.55rem] tracking-[0.22em] uppercase text-[#B0E0E6] font-medium mb-4">
+              <p className="text-[0.55rem] tracking-[0.22em] uppercase text-[#1755E7] font-medium mb-4">
                 {label}
               </p>
-              <p className="text-sm text-[#6B6B6B] leading-relaxed font-light">{body}</p>
+              <p className="text-sm text-[#A8A8C0] leading-relaxed font-light">{body}</p>
             </div>
           ))}
         </div>

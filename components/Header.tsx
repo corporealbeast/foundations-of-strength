@@ -21,7 +21,7 @@ export default function Header() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? 'bg-[#0B0B0B]/95 backdrop-blur-md border-b border-white/[0.06]'
+          ? 'bg-[#000000]/95 backdrop-blur-md border-b border-white/[0.06]'
           : 'bg-transparent'
       }`}
     >
@@ -29,7 +29,7 @@ export default function Header() {
         {/* Logo */}
         <a
           href="/"
-          className="font-condensed text-xs tracking-[0.2em] uppercase text-[#EDE8DF] hover:text-[#B0E0E6] font-semibold"
+          className="font-condensed text-xs tracking-[0.2em] uppercase text-[#FFFFFF] hover:text-[#1755E7] font-semibold"
         >
           Foundations of Strength
         </a>
@@ -40,14 +40,14 @@ export default function Header() {
             <a
               key={label}
               href={href}
-              className="text-[0.65rem] tracking-[0.2em] uppercase text-[#6B6B6B] hover:text-[#EDE8DF]"
+              className="text-[0.65rem] tracking-[0.2em] uppercase text-[#A8A8C0] hover:text-[#FFFFFF]"
             >
               {label}
             </a>
           ))}
           <a
             href="#apply"
-            className="text-[0.65rem] tracking-[0.2em] uppercase px-5 py-2.5 border border-[#B0E0E6] text-[#B0E0E6] hover:bg-[#B0E0E6] hover:text-[#0B0B0B] font-semibold"
+            className="text-[0.65rem] tracking-[0.2em] uppercase px-5 py-2.5 border border-[#1755E7] text-[#1755E7] hover:bg-[#1755E7] hover:text-white font-semibold"
           >
             Apply
           </a>
@@ -57,7 +57,7 @@ export default function Header() {
         <div className="flex md:hidden items-center gap-4">
           <a
             href="#apply"
-            className="text-[0.6rem] tracking-[0.2em] uppercase px-4 py-2 border border-[#B0E0E6] text-[#B0E0E6] hover:bg-[#B0E0E6] hover:text-[#0B0B0B] font-semibold"
+            className="text-[0.6rem] tracking-[0.2em] uppercase px-4 py-2 border border-[#1755E7] text-[#1755E7] hover:bg-[#1755E7] hover:text-white font-semibold"
           >
             Apply
           </a>
@@ -66,22 +66,22 @@ export default function Header() {
             className="flex flex-col gap-1.5 p-1"
             aria-label="Toggle menu"
           >
-            <span className={`block w-5 h-px bg-[#6B6B6B] transition-all duration-300 ${menuOpen ? 'rotate-45 translate-y-[5px]' : ''}`} />
-            <span className={`block w-5 h-px bg-[#6B6B6B] transition-all duration-300 ${menuOpen ? 'opacity-0' : ''}`} />
-            <span className={`block w-5 h-px bg-[#6B6B6B] transition-all duration-300 ${menuOpen ? '-rotate-45 -translate-y-[5px]' : ''}`} />
+            <span className={`block w-5 h-px bg-[#A8A8C0] transition-all duration-300 ${menuOpen ? 'rotate-45 translate-y-[5px]' : ''}`} />
+            <span className={`block w-5 h-px bg-[#A8A8C0] transition-all duration-300 ${menuOpen ? 'opacity-0' : ''}`} />
+            <span className={`block w-5 h-px bg-[#A8A8C0] transition-all duration-300 ${menuOpen ? '-rotate-45 -translate-y-[5px]' : ''}`} />
           </button>
         </div>
       </div>
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden bg-[#0B0B0B] border-t border-white/[0.06] px-6 py-6 flex flex-col gap-6">
+        <div className="md:hidden bg-[#000000] border-t border-white/[0.06] px-6 py-6 flex flex-col gap-6">
           {navLinks.map(({ label, href }) => (
             <a
               key={label}
               href={href}
               onClick={() => setMenuOpen(false)}
-              className="text-[0.65rem] tracking-[0.2em] uppercase text-[#6B6B6B] hover:text-[#EDE8DF]"
+              className="text-[0.65rem] tracking-[0.2em] uppercase text-[#A8A8C0] hover:text-[#FFFFFF]"
             >
               {label}
             </a>

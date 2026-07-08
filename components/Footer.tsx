@@ -11,10 +11,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
-            <p className="font-condensed text-xs tracking-[0.2em] uppercase text-[#EDE8DF] font-semibold mb-3">
+            <p className="font-condensed text-xs tracking-[0.2em] uppercase text-[#FFFFFF] font-semibold mb-3">
               Foundations of Strength
             </p>
-            <p className="text-xs text-[#404040] leading-relaxed font-light">
+            <p className="text-xs text-[#5C5C78] leading-relaxed font-light">
               Online Strength Coaching by Christian Davis<br />
               2026 California's Strongest Man&nbsp;&nbsp;·&nbsp;&nbsp;Professional Strongman
             </p>
@@ -26,7 +26,7 @@ export default function Footer() {
               <a
                 key={label}
                 href={href}
-                className="text-[0.6rem] tracking-[0.2em] uppercase text-[#404040] hover:text-[#6B6B6B]"
+                className="text-[0.6rem] tracking-[0.2em] uppercase text-[#5C5C78] hover:text-[#A8A8C0]"
               >
                 {label}
               </a>
@@ -35,10 +35,10 @@ export default function Footer() {
 
           {/* Contact */}
           <div className="sm:text-right">
-            <p className="text-[0.55rem] tracking-[0.2em] uppercase text-[#404040] mb-3">Contact</p>
+            <p className="text-[0.55rem] tracking-[0.2em] uppercase text-[#5C5C78] mb-3">Contact</p>
             <a
               href="mailto:christiantdavis97@gmail.com"
-              className="text-xs text-[#6B6B6B] hover:text-[#B0E0E6] font-light"
+              className="text-xs text-[#A8A8C0] hover:text-[#1755E7] font-light"
             >
               christiantdavis97@gmail.com
             </a>
@@ -46,10 +46,10 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/[0.07] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <p className="text-[0.5rem] tracking-[0.2em] uppercase text-[#2A2A2A]">
+          <p className="text-[0.5rem] tracking-[0.2em] uppercase text-[#2D2D40]">
             © 2026 Foundations of Strength. All rights reserved.
           </p>
-          <p className="text-[0.5rem] tracking-[0.2em] uppercase text-[#2A2A2A]">
+          <p className="text-[0.5rem] tracking-[0.2em] uppercase text-[#2D2D40]">
             Strength System&nbsp;&nbsp;/&nbsp;&nbsp;V1.0
           </p>
         </div>

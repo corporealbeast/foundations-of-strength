@@ -63,24 +63,24 @@ const stages = [
 
 export default function StrengthSystem() {
   return (
-    <section className="border-t border-white/[0.07] py-28 lg:py-36 bg-[#0D0D0D]">
+    <section className="border-t border-white/[0.07] py-28 lg:py-36 bg-[#04040C]">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         {/* Label row */}
         <div className="flex items-center gap-4 mb-12">
-          <span className="text-[0.6rem] tracking-[0.25em] uppercase text-[#B0E0E6] font-medium">
+          <span className="text-[0.6rem] tracking-[0.25em] uppercase text-[#1755E7] font-medium">
             Strength System
           </span>
           <span className="flex-1 h-px bg-white/[0.07]" aria-hidden />
-          <span className="text-[0.55rem] tracking-widest uppercase text-[#404040] hidden sm:block">
+          <span className="text-[0.55rem] tracking-widest uppercase text-[#5C5C78] hidden sm:block">
             Method / Overview
           </span>
         </div>
 
         {/* Headline */}
-        <h2 className="font-condensed text-3xl sm:text-4xl lg:text-5xl font-bold uppercase leading-[1.05] text-[#EDE8DF] tracking-tight mb-4 max-w-2xl">
+        <h2 className="font-condensed text-3xl sm:text-4xl lg:text-5xl font-bold uppercase leading-[1.05] text-[#FFFFFF] tracking-tight mb-4 max-w-2xl">
           Five stages.<br />One stronger body.
         </h2>
-        <p className="text-[#6B6B6B] text-base mb-20 max-w-md font-light">
+        <p className="text-[#A8A8C0] text-base mb-20 max-w-md font-light">
           A sequential system built around your starting point — not a generic template.
         </p>
 
@@ -89,30 +89,30 @@ export default function StrengthSystem() {
           {stages.map(({ number, name, phase, status, description, metrics }) => (
             <div
               key={number}
-              className="bg-[#0B0B0B] border border-white/[0.07] hover:border-[#B0E0E6]/20 hover:bg-[#0F0F0F] transition-all duration-300"
+              className="bg-[#000000] border border-white/[0.07] hover:border-[#1755E7]/20 hover:bg-[#0F0F0F] transition-all duration-300"
             >
               <div className="grid grid-cols-1 lg:grid-cols-[220px_1fr_200px]">
                 {/* Stage ID */}
                 <div className="p-6 lg:p-8 border-b lg:border-b-0 lg:border-r border-white/[0.05] flex flex-col justify-between gap-4">
                   <div>
                     <div className="flex items-center gap-3 mb-3">
-                      <span className="text-[0.55rem] tracking-[0.25em] uppercase text-[#B0E0E6] font-medium">
+                      <span className="text-[0.55rem] tracking-[0.25em] uppercase text-[#1755E7] font-medium">
                         {number}
                       </span>
                       <span className="flex-1 h-px bg-white/[0.05]" aria-hidden />
                     </div>
-                    <h3 className="font-condensed text-xl font-bold uppercase text-[#EDE8DF] tracking-wide">
+                    <h3 className="font-condensed text-xl font-bold uppercase text-[#FFFFFF] tracking-wide">
                       {name}
                     </h3>
                   </div>
-                  <span className="text-[0.5rem] tracking-[0.2em] uppercase text-[#404040]">
+                  <span className="text-[0.5rem] tracking-[0.2em] uppercase text-[#5C5C78]">
                     {phase}
                   </span>
                 </div>
 
                 {/* Description */}
                 <div className="p-6 lg:p-8 flex items-center border-b lg:border-b-0 lg:border-r border-white/[0.05]">
-                  <p className="text-[#6B6B6B] text-sm leading-relaxed font-light max-w-lg">
+                  <p className="text-[#A8A8C0] text-sm leading-relaxed font-light max-w-lg">
                     {description}
                   </p>
                 </div>
@@ -122,7 +122,7 @@ export default function StrengthSystem() {
                   <div className="grid grid-cols-2 lg:grid-cols-1 gap-4">
                     {metrics.map(({ label, value }) => (
                       <div key={label}>
-                        <p className="text-[0.5rem] tracking-[0.2em] uppercase text-[#404040] mb-1">
+                        <p className="text-[0.5rem] tracking-[0.2em] uppercase text-[#5C5C78] mb-1">
                           {label}
                         </p>
                         <p className="text-[0.65rem] font-medium text-[#8A8A8A] uppercase tracking-wide">
@@ -132,8 +132,8 @@ export default function StrengthSystem() {
                     ))}
                   </div>
                   <div className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#B0E0E6]/50" aria-hidden />
-                    <span className="text-[0.5rem] tracking-[0.2em] uppercase text-[#404040]">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#1755E7]/50" aria-hidden />
+                    <span className="text-[0.5rem] tracking-[0.2em] uppercase text-[#5C5C78]">
                       {status}
                     </span>
                   </div>
