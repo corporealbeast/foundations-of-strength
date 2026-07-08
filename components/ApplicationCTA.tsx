@@ -8,13 +8,13 @@ export default function ApplicationCTA() {
     >
       {/* Subtle vertical center line */}
       <div
-        className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-32 bg-gradient-to-b from-[#B8936A]/15 to-transparent pointer-events-none"
+        className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-32 bg-gradient-to-b from-[#B0E0E6]/15 to-transparent pointer-events-none"
         aria-hidden
       />
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-10 text-center">
         {/* Label */}
-        <p className="text-[0.6rem] tracking-[0.3em] uppercase text-[#B8936A] font-medium mb-10">
+        <p className="text-[0.6rem] tracking-[0.3em] uppercase text-[#B0E0E6] font-medium mb-10">
           Online Coaching Application
         </p>
 
@@ -31,7 +31,7 @@ export default function ApplicationCTA() {
         {/* CTA */}
         <a
           href="mailto:christiantdavis97@gmail.com?subject=Online Coaching Application"
-          className="inline-flex items-center gap-4 px-10 py-5 bg-[#B8936A] text-[#0B0B0B] text-[0.65rem] tracking-[0.25em] uppercase font-bold hover:bg-[#D4B08A] group"
+          className="inline-flex items-center gap-4 px-10 py-5 bg-[#B0E0E6] text-[#0B0B0B] text-[0.65rem] tracking-[0.25em] uppercase font-bold hover:bg-[#C8EAED] group"
         >
           Apply for Online Coaching
           <span className="group-hover:translate-x-1 transition-transform duration-300 text-base">

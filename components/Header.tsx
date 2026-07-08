@@ -29,7 +29,7 @@ export default function Header() {
         {/* Logo */}
         <a
           href="/"
-          className="font-condensed text-xs tracking-[0.2em] uppercase text-[#EDE8DF] hover:text-[#B8936A] font-semibold"
+          className="font-condensed text-xs tracking-[0.2em] uppercase text-[#EDE8DF] hover:text-[#B0E0E6] font-semibold"
         >
           Foundations of Strength
         </a>
@@ -47,7 +47,7 @@ export default function Header() {
           ))}
           <a
             href="#apply"
-            className="text-[0.65rem] tracking-[0.2em] uppercase px-5 py-2.5 border border-[#B8936A] text-[#B8936A] hover:bg-[#B8936A] hover:text-[#0B0B0B] font-semibold"
+            className="text-[0.65rem] tracking-[0.2em] uppercase px-5 py-2.5 border border-[#B0E0E6] text-[#B0E0E6] hover:bg-[#B0E0E6] hover:text-[#0B0B0B] font-semibold"
           >
             Apply
           </a>
@@ -57,7 +57,7 @@ export default function Header() {
         <div className="flex md:hidden items-center gap-4">
           <a
             href="#apply"
-            className="text-[0.6rem] tracking-[0.2em] uppercase px-4 py-2 border border-[#B8936A] text-[#B8936A] hover:bg-[#B8936A] hover:text-[#0B0B0B] font-semibold"
+            className="text-[0.6rem] tracking-[0.2em] uppercase px-4 py-2 border border-[#B0E0E6] text-[#B0E0E6] hover:bg-[#B0E0E6] hover:text-[#0B0B0B] font-semibold"
           >
             Apply
           </a>

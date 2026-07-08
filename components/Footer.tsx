@@ -38,7 +38,7 @@ export default function Footer() {
             <p className="text-[0.55rem] tracking-[0.2em] uppercase text-[#404040] mb-3">Contact</p>
             <a
               href="mailto:christiantdavis97@gmail.com"
-              className="text-xs text-[#6B6B6B] hover:text-[#B8936A] font-light"
+              className="text-xs text-[#6B6B6B] hover:text-[#B0E0E6] font-light"
             >
               christiantdavis97@gmail.com
             </a>

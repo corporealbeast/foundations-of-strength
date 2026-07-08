@@ -25,7 +25,7 @@ export default function Hero() {
           <div className="flex flex-col gap-8">
             {/* Label */}
             <div className="flex items-center gap-4">
-              <span className="block w-8 h-px bg-[#B8936A]" aria-hidden />
+              <span className="block w-8 h-px bg-[#B0E0E6]" aria-hidden />
               <span className="text-[0.6rem] tracking-[0.25em] uppercase text-[#6B6B6B] font-medium">
                 Online Strength Coaching&nbsp;&nbsp;/&nbsp;&nbsp;Nationwide
               </span>
@@ -34,7 +34,7 @@ export default function Hero() {
             {/* Headline */}
             <h1 className="font-condensed text-[3.2rem] sm:text-[4.5rem] lg:text-[5rem] xl:text-[6rem] leading-[0.9] font-bold uppercase tracking-tight text-[#EDE8DF]">
               Build Strength<br />
-              <span className="text-[#B8936A]">That Lasts.</span>
+              <span className="text-[#B0E0E6]">That Lasts.</span>
             </h1>
 
             {/* Subheadline */}
@@ -43,7 +43,7 @@ export default function Hero() {
             </p>
 
             {/* Authority */}
-            <div className="border-l-2 border-[#B8936A]/40 pl-5">
+            <div className="border-l-2 border-[#B0E0E6]/40 pl-5">
               <p className="text-[0.6rem] tracking-[0.2em] uppercase text-[#404040] mb-1.5">Coached By</p>
               <p className="text-[#EDE8DF] font-semibold">Christian Davis</p>
               <p className="text-sm text-[#6B6B6B] font-light mt-0.5">
@@ -55,7 +55,7 @@ export default function Hero() {
             <div className="flex flex-wrap gap-4 pt-2">
               <a
                 href="#apply"
-                className="inline-flex items-center gap-3 px-8 py-4 bg-[#B8936A] text-[#0B0B0B] text-[0.65rem] tracking-[0.2em] uppercase font-bold hover:bg-[#D4B08A]"
+                className="inline-flex items-center gap-3 px-8 py-4 bg-[#B0E0E6] text-[#0B0B0B] text-[0.65rem] tracking-[0.2em] uppercase font-bold hover:bg-[#C8EAED]"
               >
                 Apply for Coaching
                 <span className="text-sm">→</span>
@@ -105,8 +105,8 @@ export default function Hero() {
             </div>
 
             {/* Corner accent marks */}
-            <div className="absolute -top-px -right-px w-6 h-6 border-t border-r border-[#B8936A]/50" aria-hidden />
-            <div className="absolute -bottom-px -left-px w-6 h-6 border-b border-l border-[#B8936A]/50" aria-hidden />
+            <div className="absolute -top-px -right-px w-6 h-6 border-t border-r border-[#B0E0E6]/50" aria-hidden />
+            <div className="absolute -bottom-px -left-px w-6 h-6 border-b border-l border-[#B0E0E6]/50" aria-hidden />
           </div>
         </div>
 

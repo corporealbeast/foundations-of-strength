@@ -17,7 +17,7 @@ export default function AuthoritySection() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         {/* Label */}
         <div className="flex items-center gap-4 mb-12">
-          <span className="text-[0.6rem] tracking-[0.25em] uppercase text-[#B8936A] font-medium">
+          <span className="text-[0.6rem] tracking-[0.25em] uppercase text-[#B0E0E6] font-medium">
             The Coach
           </span>
           <span className="flex-1 h-px bg-white/[0.07]" aria-hidden />
@@ -43,7 +43,7 @@ export default function AuthoritySection() {
             <div className="mt-10 space-y-3">
               {credentials.map((c) => (
                 <div key={c} className="flex items-center gap-3">
-                  <span className="w-1 h-1 rounded-full bg-[#B8936A]" aria-hidden />
+                  <span className="w-1 h-1 rounded-full bg-[#B0E0E6]" aria-hidden />
                   <span className="text-sm text-[#8A8A8A] font-light">{c}</span>
                 </div>
               ))}
@@ -52,7 +52,7 @@ export default function AuthoritySection() {
             <div className="mt-12">
               <a
                 href="#apply"
-                className="inline-flex items-center gap-3 text-[0.65rem] tracking-[0.2em] uppercase text-[#B8936A] hover:text-[#D4B08A] font-medium group"
+                className="inline-flex items-center gap-3 text-[0.65rem] tracking-[0.2em] uppercase text-[#B0E0E6] hover:text-[#C8EAED] font-medium group"
               >
                 Apply for Coaching
                 <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>

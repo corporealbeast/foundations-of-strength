@@ -67,7 +67,7 @@ export default function StrengthSystem() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         {/* Label row */}
         <div className="flex items-center gap-4 mb-12">
-          <span className="text-[0.6rem] tracking-[0.25em] uppercase text-[#B8936A] font-medium">
+          <span className="text-[0.6rem] tracking-[0.25em] uppercase text-[#B0E0E6] font-medium">
             Strength System
           </span>
           <span className="flex-1 h-px bg-white/[0.07]" aria-hidden />
@@ -89,14 +89,14 @@ export default function StrengthSystem() {
           {stages.map(({ number, name, phase, status, description, metrics }) => (
             <div
               key={number}
-              className="bg-[#0B0B0B] border border-white/[0.07] hover:border-[#B8936A]/20 hover:bg-[#0F0F0F] transition-all duration-300"
+              className="bg-[#0B0B0B] border border-white/[0.07] hover:border-[#B0E0E6]/20 hover:bg-[#0F0F0F] transition-all duration-300"
             >
               <div className="grid grid-cols-1 lg:grid-cols-[220px_1fr_200px]">
                 {/* Stage ID */}
                 <div className="p-6 lg:p-8 border-b lg:border-b-0 lg:border-r border-white/[0.05] flex flex-col justify-between gap-4">
                   <div>
                     <div className="flex items-center gap-3 mb-3">
-                      <span className="text-[0.55rem] tracking-[0.25em] uppercase text-[#B8936A] font-medium">
+                      <span className="text-[0.55rem] tracking-[0.25em] uppercase text-[#B0E0E6] font-medium">
                         {number}
                       </span>
                       <span className="flex-1 h-px bg-white/[0.05]" aria-hidden />
@@ -132,7 +132,7 @@ export default function StrengthSystem() {
                     ))}
                   </div>
                   <div className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#B8936A]/50" aria-hidden />
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#B0E0E6]/50" aria-hidden />
                     <span className="text-[0.5rem] tracking-[0.2em] uppercase text-[#404040]">
                       {status}
                     </span>

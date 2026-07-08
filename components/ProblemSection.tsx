@@ -25,7 +25,7 @@ export default function ProblemSection() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         {/* Section label */}
         <div className="flex items-center gap-4 mb-12">
-          <span className="text-[0.6rem] tracking-[0.25em] uppercase text-[#B8936A] font-medium">
+          <span className="text-[0.6rem] tracking-[0.25em] uppercase text-[#B0E0E6] font-medium">
             The Problem
           </span>
           <span className="flex-1 h-px bg-white/[0.07]" aria-hidden />
@@ -54,7 +54,7 @@ export default function ProblemSection() {
               className="bg-[#0B0B0B] p-8 lg:p-10 hover:bg-[#111111] transition-colors duration-300"
             >
               <div className="flex items-center justify-between mb-8">
-                <span className="text-[0.55rem] tracking-[0.25em] uppercase text-[#B8936A] font-medium">
+                <span className="text-[0.55rem] tracking-[0.25em] uppercase text-[#B0E0E6] font-medium">
                   {number}
                 </span>
                 <span className="flex-1 mx-4 h-px bg-white/[0.06]" aria-hidden />

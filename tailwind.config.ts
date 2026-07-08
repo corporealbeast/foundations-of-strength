@@ -12,10 +12,10 @@ const config: Config = {
         condensed: ['var(--font-barlow-condensed)', 'system-ui', 'sans-serif'],
       },
       colors: {
-        bronze: {
-          DEFAULT: '#B8936A',
-          dark: '#8A6B47',
-          light: '#D4B08A',
+        blue: {
+          DEFAULT: '#B0E0E6',
+          dark: '#8ACDD4',
+          light: '#C8EAED',
         },
       },
     },

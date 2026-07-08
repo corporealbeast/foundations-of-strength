@@ -37,7 +37,7 @@ export default function CoachingIncludes() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         {/* Label */}
         <div className="flex items-center gap-4 mb-12">
-          <span className="text-[0.6rem] tracking-[0.25em] uppercase text-[#B8936A] font-medium">
+          <span className="text-[0.6rem] tracking-[0.25em] uppercase text-[#B0E0E6] font-medium">
             What's Included
           </span>
           <span className="flex-1 h-px bg-white/[0.07]" aria-hidden />
@@ -63,7 +63,7 @@ export default function CoachingIncludes() {
               key={label}
               className="bg-[#0B0B0B] p-8 hover:bg-[#111111] transition-colors duration-300"
             >
-              <p className="text-[0.55rem] tracking-[0.22em] uppercase text-[#B8936A] font-medium mb-4">
+              <p className="text-[0.55rem] tracking-[0.22em] uppercase text-[#B0E0E6] font-medium mb-4">
                 {label}
               </p>
               <h3 className="font-condensed text-lg lg:text-xl font-bold uppercase text-[#EDE8DF] tracking-wide mb-3 leading-tight">
